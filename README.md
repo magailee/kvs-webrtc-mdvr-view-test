@@ -41,7 +41,7 @@ import { SignalingClient } from 'amazon-kinesis-video-streams-webrtc';
 ```
 
 ## Getting Started
-You can start by trying out the SDK with a webcam on the example [WebRTC test page](https://awslabs.github.io/amazon-kinesis-video-streams-webrtc-sdk-js/examples/index.html).
+You can start by trying out the SDK with a webcam on the example [WebRTC test page](https://magailee.github.io/kvs-webrtc-mdvr-view-test/examples/index.html).
 
 It is also recommended to develop familiarity with the WebRTC protocols and KVS Signaling Channel APIs. See the following resources:
 * [KVS WebRTC Developer Guide](https://docs.aws.amazon.com/kinesisvideostreams-webrtc-dg/latest/devguide/what-is-kvswebrtc.html)
@@ -250,7 +250,7 @@ This class is the main class for interfacing with the KVS signaling service. It 
     * `secretAccessKey` {string} AWS secret access key.
     * `sessionToken` {string} Optional. AWS session token.
   * `requestSigner` {RequestSigner} Optional. A custom method for overriding the default SigV4 request signing.
-  * `systemClockOffset` {number} Optional. Applies the given offset when setting the date in the SigV4 signature. 
+  * `systemClockOffset` {number} Optional. Applies the given offset when setting the date in the SigV4 signature.
   See [systemClockOffset](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Config.html#systemClockOffset-property) and [correctClockSkew](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Config.html#correctClockSkew-property)
   properties of the AWS SDK.
 
