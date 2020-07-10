@@ -1,0 +1,6 @@
+mkdir <your-forlder-name>
+cd <your-forlder-name>
+git clone https://github.com/magailee/kvs-webrtc-mdvr-view-test
+npm install
+npm run develop
+<open browser> localhost:3001
