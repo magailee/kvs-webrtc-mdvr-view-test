@@ -11,5 +11,5 @@
 [![Known Vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/amazon-kinesis-video-streams-webrtc?style=flat-square)](https://snyk.io/test/github/awslabs/amazon-kinesis-video-streams-webrtc-sdk-js?targetFile=package.json)
 
 
-## Test page URL
-You can start by trying out the SDK with a webcam on the example [WebRTC test page](https://magailee.github.io/kvs-webrtc-mdvr-view-test/examples/index.html).
+## Test Page URL
+[WebRTC test page](https://magailee.github.io/kvs-webrtc-mdvr-view-test/examples/index.html).
